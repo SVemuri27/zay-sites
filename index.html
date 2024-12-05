@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Zay Product Showcase</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css ">
+</head>
+
+<body>
+    <!-- top Bar start -->
+    <div class="top-bar">
+        <div class="contact-info">
+            <span class="email"><i class="fas fa-envelope"></i> info@company.com</span>
+            <span class="phone"><i class="fas fa-phone"></i> 010-020-0340</span>
+        </div>
+        <div class="social-icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+    </div>
+    <!-- top Bar end -->
+
+
+    <!-- nav Bar start -->
+    <nav class="navbar">
+        <div class="logo">Zay</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="nav-icons">
+            <span class="fa fa-fw fa-search"></i></span>
+            <span class="num  rounded-circle">7</span>
+            <span class="fa fa-fw fa-cart-arrow-down"></span>
+            <span class="nine  rounded-circle">+99</span>
+            <span class="fa fa-fw fa-user"></span>
+         
+
+
+        </div>
+    </nav>
+    <!-- nav Bar end -->
+
+    <!-- carousel start-->
+    <div class="carousel-container">
+        <div class="carousel-slide" id="Slide">
+            <div class="carousel">
+                <div class="zay">
+                    <h1>Zay <span> eCommerce</span></h1>
+                    <h2>Tiny and Perfect eCommerce <br>Template</h2>
+                    <p>Zay Shop is an eCommerce HTML5 CSS template with the latest <br>version of Bootstrap 5 (beta 1).
+                        This
+                        template is 100% free<br> provided by TemplateMo website. Image credits go to <a
+                            href="#">Freepik<br>
+                            Stories</a>, <a href="#">Unsplash</a> and <a href="#">Icons 8</a>.</p>
+                </div>
+                <div class="carousel-image">
+                    <img src="img\banner_img_01 (2).jpg" alt="">
+                </div>
+            </div>
+            <div class="carousel">
+                <div class="zay">
+                    <h1>Repr in voluptate</h1>
+                    <h2>Ullamco laboris nisi ut</h2>
+                    <p>We bring you 100% free CSS templates for your websites. If you wish to support TemplateMo, please
+                        make a small contribution via PayPal or tell your friends about our website. Thank you.</p>
+                </div>
+                <div class="carousel-image">
+                    <img src="C:\zay\img\banner_img_01 (2).jpg" alt="Product 3">
+                </div>
+            </div>
+            <div class="carousel">
+                <div class="zay">
+                    <h1>Repr in voluptate</h1>
+                    <h2>Ullamco laboris nisi ut</h2>
+                    <p>We bring you 100% free CSS templates for your websites. If you wish to support TemplateMo, please
+                        make a small contribution via PayPal or tell your friends about our website. Thank you.</p>
+                </div>
+                <div class="carousel-image">
+                    <img src="C:\zay\img\banner_img_01 (2).jpg" alt="Product 3">
+                </div>
+            </div>
+        </div>
+        <div class="carousel-nav">
+            <button onclick="prevSlide()">&#10094;</button>
+            <button onclick="nextSlide()">&#10095;</button>
+        </div>
+        <div class="carousel-dots">
+            <span class="dot active-dot" onclick="moveToSlide(0)"></span>
+            <span class="dot" onclick="moveToSlide(1)"></span>
+            <span class="dot" onclick="moveToSlide(2)"></span>
+        </div>
+    </div>
+    <!-- carousel end -->
+
+    <!-- month start -->
+    <div class="container">
+        <div class="month">
+            <h1>Categories of The Month</h1>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in
+                culpa qui <br>
+                officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="cont ">
+            <div class="watch">
+                <img src="img\category_img_01.jpg" alt="" class="rounded-circle  img-fluid border">
+                <h3>Watches</h3>
+                <button class="button">Go Shop</button>
+            </div>
+            <div class="shoe">
+                <img src="img\category_img_02.jpg" alt="" class="rounded-circle  img-fluid border">
+                <h3>Shoes</h3>
+                <button class="button">Go Shop</button>
+            </div>
+            <div class="accces">
+                <img src="img\category_img_03.jpg" alt="" class="rounded-circle  img-fluid border">
+                <h3>Accessories</h3>
+                <button class="button">Go Shop</button>
+            </div>
+        </div>
+    </div>
+    <!-- month end-->
+
+    <!-- cards start-->
+    <div class="container">
+        <div class="Featured">
+            <div class="sint">
+                <h1>
+                    Featured
+                    Product</h1>
+                <p>Reprehenderit in voluptate velit esse cillum dolore eu
+                    fugiat nulla <br> pariatur. Excepteur sint occaecat
+                    cupidatat non proident.</p>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="img\feature_prod_01.jpg" alt="">
+                        <div class="card-body">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star" style="color:#bcbcbc"></i>
+                                <i class="fas fa-star" style="color:#bcbcbc"></i>
+                                <p>$240.00</p>
+                            </div>
+                           
+                            <h2 class="card-title">Gym Weight</h2>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt in
+                                culpa
+                                qui
+                                officia deserunt.</p>
+                            <p class="card-reviews">Reviews (28)</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="C:\zay\img\feature_prod_02.jpg" alt="">
+                        <div class="card-body">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star" style="color:#bcbcbc"></i>
+                                <i class="fas fa-star" style="color:#bcbcbc;"></i>
+                                <p>$480.00</p>
+                            </div>
+                            <h2 class="card-title">Cloud Nike Shoes</h2>
+
+                            <p class="card-text">Aenean gravida dignissim finibus. Nullam ipsum diam, posuere vitae
+                                pharetra
+                                sed, commodo ullamcorper.</p>
+                            <p class="card-reviews">Reviews (48)</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="C:\zay\img\feature_prod_03.jpg" alt="">
+                        <div class="card-body">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star" ></i>
+                                <i class="fas fa-star" ></i>
+                                <p>$360.00</p>
+                            </div>
+                            <h2 class="card-title">Summer Addides Shoes</h2>
+
+                            <p class="card-text">Curabitur ac mi sit amet diam luctus porta. Phasellus pulvinar sagittis
+                                diam,<br> et scelerisque ipsum lobortis nec.</p>
+                            <p class="card-reviews">Reviews (78)</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- cards end -->
+
+    <!-- footer start -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Zay Shop</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> 123 Consectetur at ligula 10660</li>
+                    <li><i class="fas fa-phone"></i> 010-020-0340</li>
+                    <li><i class="fas fa-envelope"></i> info@company.com</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h2>Products</h2>
+                <ul>
+                    <li>Luxury</li>
+                    <li>Sport Wear</li>
+                    <li>Men's Shoes</li>
+                    <li>Women's Shoes</li>
+                    <li>Popular Dress</li>
+                    <li>Gym Accessories</li>
+                    <li>Sport Shoes</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h2>Further Info</h2>
+                <ul>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Shop Locations</li>
+                    <li>FAQs</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-icons">
+                <ul>
+                    <li class=" rounded-circle ">
+                        <a href="#"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
+                    </li>
+                    <li class=" rounded-circle ">
+                        <a href="#"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
+                    </li>
+                    <li class=" rounded-circle ">
+                        <a href="#"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
+                    </li>
+                    <li class=" rounded-circle ">
+                        <a href="#"><i class="fab fa-linkedin fa-lg fa-fw"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="letter">
+                <input type="email" placeholder="Email address">
+                <button>Subscribe</button>
+            </div>
+        </div>
+    </footer>
+    <div class="copy">
+        <p>Copyright © 2021 Company Name | Designed by <a href="#">TemplateMo</a></p>
+    </div>
+    <!-- footer end -->
+
+
+        <script>
+        let currentIndex = 0;
+        const slides = document.querySelectorAll('.carousel');
+        const dots = document.querySelectorAll('.dot');
+
+        function updateSlide() {
+            document.getElementById('Slide').style.transform = `translateX(-${currentIndex * 100}%)`;
+            dots.forEach((dot, index) => dot.classList.toggle('active-dot', index === currentIndex));
+        }
+
+        function nextSlide() {
+            currentIndex = (currentIndex + 1) % slides.length;
+            updateSlide();
+        }
+
+        function prevSlide() {
+            currentIndex = (currentIndex - 1) % slides.length;
+            updateSlide();
+        }
+
+        function moveToSlide(index) {
+            currentIndex = index;
+            updateSlide();
+        }
+
+       
+        // setInterval(nextSlide, 5000);
+    </script>
+
+</body>
+
+</html>
